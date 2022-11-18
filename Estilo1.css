@@ -24,7 +24,7 @@ body{
 }
 .btn-neon:hover{
     background: #8864e6;
-    box-shadow: 0 0 10px #8864e6, 0 0 40px #8864e6, 0 0 80px ##8864e6;
+    box-shadow: 0 0 10px #8864e6, 0 0 40px #8864e6, 0 0 80px #8864e6;
     transition-delay: 1s;
 }
 .btn-neon span{
