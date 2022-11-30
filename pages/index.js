@@ -13,7 +13,7 @@ const Index = () => {
       </Head>
 
       <main>
-        <div class ="Imagen">
+        <div className ="Imagen">
         <Image
           src={"/assets/24OD.gif"}
           height={294} // Desired size with correct aspect ratio
@@ -21,14 +21,14 @@ const Index = () => {
           alt="imagen"
         />
         </div>
-        <a href="#" class="btn-neon">
+        <a href="#" className="btn-neon">
           <span id="span1"></span>
           <span id="span2"></span>
           <span id="span3"></span>
           <span id="span4"></span>
           BUSCAR MATERIAL
         </a>
-        <a href="#" class="btn-neon">
+        <a href="#" className="btn-neon">
           <span id="span1"></span>
           <span id="span2"></span>
           <span id="span3"></span>
