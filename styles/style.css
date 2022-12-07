@@ -34,14 +34,47 @@ body {
 
 }
 .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
+  min-height: 0cm;
+  padding: 0 0.05rem;
+  position:static;
+  display:block;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #130831;
+}
+.title3 {
+  line-height: 1.15;
+  font-size: 1.5rem;
+  padding-bottom: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align:center;
+  display: block;
+	font-weight: 600;
+
+	color: #ffffff;
+}
+.title4 {
+  display: block;
+  margin:1cm;
+	font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+	font-size: 25px;
+	margin-bottom: 10px;
+	color: #ffffff;
 }
 
+.title5 {
+  position:absolute;
+  right: 16cm;
+  margin:0cm;
+  line-height: 1.15;
+  font-size: 5rem;
+  padding-bottom: 0px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align:center;
+  color: #fff;
+}
 main {
   padding: 4rem 0;
   flex: 1;
@@ -55,8 +88,8 @@ main {
 
 footer {
   width: 100%;
-  height: 100px;
-  border-top: 1px solid #eaeaea;
+  height: 80px;
+  border-top: 1px solid #130831;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -151,7 +184,8 @@ a {
 
 .description {
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  font-family:'Times New Roman', Times, serif;
 }
 
 code {
@@ -230,4 +264,368 @@ code {
   text-align: center;
   background-color: #0070f3;
   border-radius: 20px 0px 0px 20px;
+}
+
+/* SEGUNDA PESTAÑA*/
+.title {
+  margin:0cm;
+  line-height: 1.15;
+  font-size: 3.5rem;
+  padding-bottom: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align:center;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  text-align:left;
+  margin: 2cm;
+}
+
+.title2 {
+  margin:0cm;
+  line-height: 1.15;
+  font-size: 1rem;
+  padding-bottom: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align:center;
+}
+
+/* BARRA */
+.custom-select {
+  position:relative;
+  right: 1.5cm;
+  display: block;
+  max-width: 400px;
+  min-width: 100px;
+  margin: 0 auto;
+  border: 1px solid #3C1C78;
+  background-color: #fff;
+  opacity: 0.85;
+  z-index: 10;
+  top: 50px;
+}
+.custom-select select {
+  border:#714BB9;
+  outline: none;
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  margin: 0;
+  display: block;
+  width: 100%;
+  padding: 12px 55px 15px 15px;
+  font-size: 20px;
+  color: #714BB9;
+}
+.custom-select:after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  line-height: 50px;
+  content: "▼";
+  text-align: center;
+  color: #714BB9;
+  font-size: 24px;
+  border-left: 1px solid #3C1C78;
+  z-index: -1;
+}
+
+/* LAYAOUT*/
+
+/* BOTON SUBIR MATERIAL*/
+.btn-neon2{
+  left: 19.5cm;
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 10px 20px;
+  color: #fff;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 16px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.btn-neon2:hover{
+  background: #48a1b8;
+  box-shadow: 0 0 10px #48a1b8, 0 0 40px #48a1b8, 0 0 80px #48a1b8;
+  transition-delay: 0.5s;
+}
+.btn-neon2 span{
+  position: absolute;
+  display: block;
+}
+#spans1{
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent,#48a1b8);
+}
+.btn-neon2:hover #spans1{
+  left: 100%;
+  transition: 0.5s;
+}
+#spans3{
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent,#48a1b8);
+}
+.btn-neon2:hover #spans3{
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+#spans2{
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#48a1b8);
+}
+.btn-neon2:hover #spans2{
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.125s;
+}
+#spans4{
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#48a1b8);
+}
+.btn-neon2:hover #spans4{
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.375s;
+}
+
+/* BOTON VOLVER AL INICIO*/
+.btn-neon3{
+  right: 21cm;
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 10px 20px;
+  color: #fff;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 16px;
+  overflow: hidden;
+  transition: 0.125s;
+}
+.btn-neon3:hover{
+  background: #8864e6;
+  box-shadow: 0 0 10px #8864e6, 0 0 40px #8864e6, 0 0 80px #8864e6;
+  transition-delay: 0.5s;
+}
+.btn-neon3 span{
+  position: absolute;
+  display: block;
+}
+#spanss1{
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent,#8864e6);
+}
+.btn-neon3:hover #spanss1{
+  left: 100%;
+  transition: 0.5s;
+}
+#spanss3{
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent,#8864e6);
+}
+.btn-neon3:hover #spanss3{
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+#spanss2{
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#8864e6);
+}
+.btn-neon3:hover #spanss2{
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.125s;
+}
+#spanss4{
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#8864e6);
+}
+.btn-neon3:hover #spanss4{
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.375s;
+}
+
+/* BARRAS DE INPUT*/
+
+.formulario {
+	min-width: 700px;
+	margin-top: 60px;
+	background: #130831;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.formulario > div {
+	margin-bottom: 20px;
+}
+
+.formulario label {
+	display: block;
+	font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+	font-size: 25px;
+	margin-bottom: 10px;
+	color: #ffffff;
+}
+
+.formulario input,
+.formulario textarea {
+	font-family: 'Courier New', Courier, monospace;
+	width: 100%;
+	border-radius: 5px;
+	border: 2px solid #ffffff;
+	font-size: 18px;
+	padding: 10px;
+	margin-bottom: 5px;
+	color: #1f1f1f;
+}
+
+.formulario input:focus {
+	outline: none;
+	border: 2px solid #8864e6;
+}
+
+.formulario .error {
+	color: #e92b2d;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.formulario button[type="submit"] {
+	display: block;
+	background: #0085FF;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	transition: .3s ease all;
+}
+
+.formulario button[type="submit"]:hover {
+	background: #0051ff;
+}
+
+.formulario .exito {
+	text-align: center;
+	font-size: 14px;
+	padding-top: 20px;
+	color: #02a802;
+}
+
+.formulario input[type="radio"] {
+	width: auto;
+}
+
+/* BOTON BUSCAR*/
+.btn-neonb{
+  left: 6cm;
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 4px 4px;
+  color: #fff;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 30px;
+  overflow: hidden;
+  transition: 0.2s;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  top: -0.6cm;
+}
+.btn-neonb:hover{
+  background: #8864e6;
+  box-shadow: 0 0 10px #8864e6, 0 0 40px #8864e6, 0 0 80px #8864e6;
+  transition-delay: 0s;
+}
+
+/*BARRA DE BUSQUEDA 2*/
+.custom-selectt {
+  position:relative;
+  display: block;
+  max-width: 400px;
+  min-width: 100px;
+  left: 4.5cm;
+  margin: -1cm;
+  border: 1px solid #3C1C78;
+  background-color: #fff;
+  opacity: 0.85;
+  z-index: 10;
+  top: 50px;
+}
+.custom-selectt select {
+  border:#714BB9;
+  outline: none;
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  margin: 0;
+  display: block;
+  width: 100%;
+  padding: 12px 55px 15px 15px;
+  font-size: 20px;
+  color: #714BB9;
+}
+.custom-selectt:after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  line-height: 50px;
+  content: "▼";
+  text-align: center;
+  color: #714BB9;
+  font-size: 24px;
+  border-left: 1px solid #3C1C78;
+  z-index: -1;
+}
+
+.img{
+  position:absolute;
+  left: 16cm;
+  margin: 0.2cm;
 }

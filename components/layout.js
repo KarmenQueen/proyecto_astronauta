@@ -2,62 +2,35 @@ import Head from "next/head";
 import Link from "next/link";
 import ViewCount from "../components/viewCount";
 import React, { useState } from "react";
+import Image from "next/image";
 
 const Layout = ({ children, pageId }) => {
-  const [nViews, setViews] = useState(0);
-  function incrementViews() {
-    //console.log(nViews);
-    setViews(nViews + 1);
-  }
-  function resetViews() {
-    setViews(0);
-  }
-
   return (
     <div className="container">
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content="Ejemplo de sitio web con menú" />
-      </Head>
-      <header className="menu">
-        <Link href="/page1">
-          <a
-            className={pageId === "page1" ? "currentPage" : ""}
-            onClick={incrementViews}
-          >
-            Página 1
-          </a>
-        </Link>
+      <div className="img">
+      <Image id="imagen"
+          src="/images/astronomia.png"
+          height={80} // Desired size with correct aspect ratio
+          width={80} // Desired size with correct aspect ratio
+          alt="ojo"
+        />
+      </div>
 
-        <Link href="/page2">
-          <a
-            className={pageId === "page2" ? "currentPage" : ""}
-            onClick={incrementViews}
-          >
-            Página 2
-          </a>
-        </Link>
-
-        <Link href="/page3">
-          <a
-            className={pageId === "page3" ? "currentPage" : ""}
-            onClick={incrementViews}
-          >
-            Página 3
-          </a>
-        </Link>
-
-        <Link href="/index">
-          <a
-            className={pageId === "page4" ? "currentPage" : ""}
-            onClick={incrementViews}
-          >
-            To-Do
-          </a>
-        </Link>
-        <ViewCount count={nViews} reset={resetViews} />
-      </header>
-      <main>{children}</main>
+      <h1 className="title5">ORION</h1>
+      <a className="btn-neon2" href="/form" target="_blank" rel="noopener noreferrer">
+          <span id="spans1"></span>
+          <span id="spans2"></span>
+          <span id="spans3"></span>
+          <span id="spans4"></span>
+          SUBIR MATERIAL
+        </a>
+        <a className="btn-neon3" href="/" target="_blank" rel="noopener noreferrer">
+          <span id="spanss1"></span>
+          <span id="spanss2"></span>
+          <span id="spanss3"></span>
+          <span id="spanss4"></span>
+          IR A INICIO
+        </a>
     </div>
   );
 };
