@@ -17,14 +17,14 @@ const Layout = ({ children, pageId }) => {
       </div>
 
       <h1 className="title5">ORION</h1>
-      <a className="btn-neon2" href="/form" target="_blank" rel="noopener noreferrer">
+      <a className="btn-neon2" href="/form" rel="noopener noreferrer">
           <span id="spans1"></span>
           <span id="spans2"></span>
           <span id="spans3"></span>
           <span id="spans4"></span>
           SUBIR MATERIAL
         </a>
-        <a className="btn-neon3" href="/" target="_blank" rel="noopener noreferrer">
+        <a className="btn-neon3" href="/" rel="noopener noreferrer">
           <span id="spanss1"></span>
           <span id="spanss2"></span>
           <span id="spanss3"></span>

@@ -179,7 +179,7 @@ a {
 
 .title,
 .description {
-  text-align: center;
+  text-align: left;
 }
 
 .description {
@@ -280,7 +280,7 @@ code {
   line-height: 1.5;
   font-size: 1.6rem;
   text-align:left;
-  margin: 2cm;
+  margin: 1cm;
 }
 
 .title2 {
@@ -628,4 +628,8 @@ code {
   position:absolute;
   left: 16cm;
   margin: 0.2cm;
+}
+
+.img2{
+  margin: 0.3cm;
 }

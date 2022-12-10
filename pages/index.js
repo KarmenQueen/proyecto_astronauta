@@ -10,8 +10,8 @@ const Index = () => {
       <header className="App-header">
         <Image
           src="/images/2130-removebg-preview.png"
-          height={500} // Desired size with correct aspect ratio
-          width={500} // Desired size with correct aspect ratio
+          height={400} // Desired size with correct aspect ratio
+          width={400} // Desired size with correct aspect ratio
           alt="ojo"
         />
         <h1 className="title3">SELECCIONE EL RAMO QUE DESEA BUSCAR</h1>
@@ -70,14 +70,14 @@ const Index = () => {
               </optgroup>
           </select>
         </label>
-        <a className="btn-neonb" href="/form" target="_blank" rel="noopener noreferrer">
+        <a className="btn-neonb" href="/form" rel="noopener noreferrer">
           <span id="spansb1"></span>
           <span id="spansb2"></span>
           <span id="spansb3"></span>
           <span id="spansb4"></span>
           🔍︎
         </a>        
-        <a className="btn-neon" href="/respuesta" target="_blank" rel="noopener noreferrer">
+        <a className="btn-neon" href="/respuesta" rel="noopener noreferrer">
           <span id="span1"></span>
           <span id="span2"></span>
           <span id="span3"></span>

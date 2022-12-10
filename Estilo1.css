@@ -13,7 +13,6 @@ body{
 .btn-neon{
     position: relative;
     display: inline-block;
-    margin: 80px;
     padding: 15px 30px;
     color: #fff;
     letter-spacing: 4px;
@@ -84,7 +83,6 @@ body{
 }
 
 .center{
-    margin: auto;
     display: block;
     width: 150px;
     height: 200px;
