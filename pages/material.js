@@ -9,7 +9,7 @@ import {useLocalStorage} from './useLocalStorage'
 const Material = () => {
     const [value, setValue] = useLocalStorage("value","");
     
-    
+    console.log(value);
     return(
         <div className="App">
             <Layout></Layout>

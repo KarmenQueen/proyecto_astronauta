@@ -1,0 +1,94 @@
+{ 
+    "1":{ 
+        "nombre": "ÁLGEBRA PARA INGENIERÍA",
+        "codigo": ""
+    },
+    "2":{ 
+        "nombre": "GEOMETRÍA PARA INGENIERÍA",
+        "codigo": ""
+    },
+    "3":{ 
+        "nombre": "ÁLGEBRA LINEAL PARA INGENIERÍA",
+        "codigo": ""
+    },
+    "4":{ 
+        "nombre": "CÁLCULO EN UNA VARIABLE",
+        "codigo": ""
+    },
+    "5":{ 
+        "nombre": "FÍSICA: MECÁNICA",
+        "codigo": ""
+    },
+    "6":{ 
+        "nombre": "ECUACIONES DIFERENCIALES PARA INGENIERÍA",
+        "codigo": ""
+    },
+    "7":{ 
+        "nombre": "CÁLCULO EN VARIAS VARIABLES",
+        "codigo": ""
+    },
+    "8":{ 
+        "nombre": "ESTRUCTURA DE DATOS Y ALGORITMOS",
+        "codigo": ""
+    },
+    "9":{ 
+        "nombre": "FÍSICA: ONDAS Y ELECTROMAGNETISMO",
+        "codigo": ""
+    },
+    "10":{ 
+        "nombre": "MÉTODOS NUMÉRICOS PARA INGENIERÍA",
+        "codigo": ""
+    },
+    "11":{ 
+        "nombre": "CÁLCULO EN UNA VARIABLE",
+        "codigo": ""
+    },
+    "12":{ 
+        "nombre": "FÍSICA: MECÁNICA",
+        "codigo": ""
+    },
+    "13":{ 
+        "nombre": "ECUACIONES DIFERENCIALES PARA INGENIERÍA",
+        "codigo": ""
+    },
+    "14":{ 
+        "nombre": "ESTRUCTURAS DISCRETAS",
+        "codigo": ""
+    },
+    "15":{ 
+        "nombre": "ARQUITECTURA DE COMPUTADORES",
+        "codigo": ""
+    },
+    "16":{ 
+        "nombre": "TEORÍA DE AUTÓMATAS",
+        "codigo": ""
+    },
+    "17":{ 
+        "nombre": "DISEÑO Y ANÁLISIS DE ALGORITMOS",
+        "codigo": ""
+    },
+    "18":{ 
+        "nombre": "PROGRAMACIÓN EN PARADIGMAS FUNCIONAL Y PARALELO",
+        "codigo": ""
+    },
+    "19":{ 
+        "nombre": "COMUNICACIONES",
+        "codigo": ""
+    },
+    "20":{ 
+        "nombre": "INTELIGENCIA ARTIFICIAL",
+        "codigo": ""
+    },
+    "21":{ 
+        "nombre": "REDES",
+        "codigo": ""
+    },
+    "22":{ 
+        "nombre": "TALLER DE INGENIERÍA DE SOFTWARE",
+        "codigo": ""
+    },
+    "23":{ 
+        "nombre": "SISTEMAS DISTRIBUIDOS",
+        "codigo": ""
+    }
+}
